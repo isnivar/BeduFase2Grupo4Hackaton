@@ -18,8 +18,21 @@
         <section class="p-4">
             <div class="search-container">
                 <form class="d-flex justify-content-center" id="submit">
+                    
+                    <!-- <select name="type" id="type">
+                        <option value="berries">Berries</option>
+                        <option value="contests">Contests</option>
+                        <option value="evolution">Evolution</option>
+                        <option value="games"></option>
+                        <option value="items">Verde</option>
+                        <option value="locations">Verde</option>
+                        <option value="machines">Verde</option>
+                        <option value="moves">Verde</option>
+                        <option value="pokemon">Verde</option>
+                       
+                    </select> -->
                     <input type="text" placeholder="Busca un pokemon" name="search" id="search" />
-                    <button type="submit">Buscar</button>
+                    <button type="submit" id="searchButton">Buscar</button>
                 </form>
             </div>
         </section>
@@ -28,7 +41,7 @@
             <div class="column">
                 <div class="card">
                     <img src="./assets/pokebola.png"
-                        class="card-img-top" alt="...">
+                        class="card-img-top" id="pokemonImg" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">Pokenmon 1</h5>
                         <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
@@ -37,7 +50,7 @@
                     </div>
                 </div>
                 <div class="collapse multi-collapse" id="multiCollapseExample1">
-                    <div class="card card-body text-center">
+                    <div class="card card-body text-center" id="pokemonDes">
                         Some placeholder content for the first collapse component of this multi-collapse example. This
                         panel is hidden by default but revealed when the user activates the relevant trigger.
                     </div>
