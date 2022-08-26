@@ -1,0 +1,19 @@
+{
+  "name": "bedufase2grupo4hackaton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isnivar/BeduFase2Grupo4Hackaton.git"
+  },
+  "author": "grupo4 BeduProgram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isnivar/BeduFase2Grupo4Hackaton/issues"
+  },
+  "homepage": "https://github.com/isnivar/BeduFase2Grupo4Hackaton#readme"
+}
