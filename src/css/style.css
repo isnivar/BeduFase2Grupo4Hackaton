@@ -37,6 +37,16 @@ form input[type="text"] {
     background-color: rgba(221, 221, 221, 0.5);
 }
 
+a{
+    display: block;
+    width: 80px;
+    border-radius: 5px;
+    padding: 10px 7px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+  }
+
 .search-container form button,
 .search-container button {
     float: right;
